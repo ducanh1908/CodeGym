@@ -17,9 +17,9 @@
         margin: 0 auto;
     }
     .profile {
-        width: 50%;
         display: block;
         float: left;
+        margin: 0 auto;
     }
     .profile-img {
         background-clip: border-box;
@@ -29,35 +29,29 @@
     .list {
         list-style: none;
     }
-    .info {
-        width: 50%;
-        float: right;
-    }
+
 
 </style>
 <body>
     <div class="main">
         <div class="profile">
+            <h1>CV Yoongee</h1>
             <img src="./img/avt.jpg" alt="" class="profile-img" >
             <h1>Thông tin cá nhân</h1>
             <ul class="list">
-                <li>Ngày Sinh</li>
-                <li>Giới tính</li>
-                <li>Sđt</li>
-                <li>Địa chỉ</li>
-                <li>Email</li>
+                <li>Ngày Sinh: 19/08/1990</li>
+                <li>Giới tính: Nam</li>
+                <li>Sđt: 0966789993</li>
+                <li>Địa chỉ: Thanh Xuân - Hà Nội  </li>
+                <li>Email: nguyenvana@gmail.com</li>
             </ul>
-            <h1>Mục Tiêu</h1>
-            <span>
-                Mục tiêu ngắn hạn
-            </span>
+            <h1>Video giới thiệu</h1>
+            <video width="320px" height="240px" controls>
+                <source src="./music/video.mp4" type="video/mp4">
+            </video>
+            <h1>Bài nhạc ưu thích</h1>
+            <audio src="./music/baihat.mp3" controls></audio>
         </div>
-        <div class="info">
-            <h1>Học Vấn</h1>
-            <h1>Bằng Cấp</h1>
-            <h1>Kỹ Năng</h1>
-            <h1>Kinh Nghiệm</h1>
-        </div>
-    </div>
+   </div>
 </body>
 </html>
