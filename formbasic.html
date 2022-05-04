@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .form-like {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #333333;
+    display: block;
+
+  }
+  .row {
+    padding: 20px;
+    display: block;
+  }
+  h1 {
+    background-color: crimson;
+    text-align: center;
+    color: #fff;
+  }
+  label {
+    width: 30px;
+  }
+  input[type=checkbox] {
+
+  }
+  .col-25 {
+    width: 25%;
+    float: left;
+  }
+  .col-75 {
+    width: 75%;
+    float: left;
+  }
+  .like {
+    padding: 0 10px;
+  }
+input[type=text] {
+  width: 90%;
+  border-radius: 5px;
+}
+.btn {
+
+  margin: 0 auto;
+}
+.sm-form {
+  display: inline-block;
+}
+</style>
+<body>
+<div class="form-like">
+  <form action="">
+    <h1>Sở thích của bạn</h1>
+    <div class="row">
+      <div >
+        <div class="col-25">
+          <label>Họ và tên</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="yourname">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div >
+        <div class="col-25">
+          <label >Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="email">
+        </div>
+      </div>
+      </div >
+    <div class="row">
+      <div class="col-25">
+        <label >Sở thích</label>
+      </div>
+      <div class="col-75">
+        <table>
+          <tr>
+            <td><label class="like" ><input type="checkbox" name="interests">Thể thao</label></td>
+            <td> <label class="like"><input type="checkbox" name="interests">Âm nhạc</label></td>
+            <td><label class="like"><input type="checkbox" name="interests">Đọc sách</label> <br></td>
+          </tr>
+          <tr>
+            <td><label class="like" ><input type="checkbox" name="interests">Lướt web</label></td>
+            <td> <label class="like"><input type="checkbox" name="interests">Chơi game</label></td>
+            <td><label class="like"><input type="checkbox" name="interests">Du lịch</label> <br></td>
+          </tr>
+          <tr>
+            <td><label class="like" ><input type="checkbox" name="interests">Thể thao</label></td>
+
+          </tr>
+        </table>
+
+      </div>
+    </div>
+    <div class="btn">
+      <div class="sm-form" >
+        <input type="submit" value="Gửi thông tin" name="Submit Form">
+      </div>
+      <div class="reset-form">
+        <input type="reset" value="Nhập lại">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

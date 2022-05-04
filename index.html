@@ -2,51 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form</title>
 </head>
 <style>
-    /** {*/
-    /*    margin: 0;*/
-    /*    padding: 0;*/
-    /*}*/
-
-   img {
-       display: block;
-       margin: 0 auto;
-   }
-
+table,tr,td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
 </style>
 <body>
-    <h1>Video bóng đá MU - Chelsea: Mở điểm đẹp mắt, cứu tinh Ronaldo (Vòng 37 Ngoại hạng Anh)</h1>
-    <p>Do Chelsea vướng lịch đá FA Cup nên cuộc đối đầu giữa MU và Chelsea thuộc vòng 37 Ngoại hạng Anh được đẩy lên đá sớm.
-    HLV Ralf Rangnick chỉ còn 14 cầu thủ đội hình một chuẩn bị cho trận đấu này trong khi đó "The Blues" quyết tâm phá dớp chuỗi không thắng "Quỷ đỏ" tại Ngoại hạng Anh.</p>
-    <img src="https://cdn.24h.com.vn/upload/2-2022/images/2022-04-29/3-740-1651179229-731-width740height493.jpg">
-    <p>Ronaldo lại sắm vai cứu tinh cho MU</p>
-    <a href="https://www.24h.com.vn/bong-da/video-bong-da-mu-chelsea-mo-diem-dep-mat-cuu-tinh-ronaldo-vong-37-ngoai-hang-anh-c48a1354663.html">
-        Link video trận đấu</a>
+   <table>
+       <tr>
+           <th>Tên</th>
+           <th>Tuổi</th>
+           <th>Địa chỉ</th>
+       </tr>
+       <tr>
+            <td rowspan="4"> >=60 tuổi</td>
+           <td>Nguyễn Văn Can</td>
+           <td>60</td>
+           <td>Hà Nội</td>
+       </tr>
+       <tr>
+           <td>Nguyễn Văn Can</td>
+           <td>60</td>
+           <td>Hà Nội</td>
+       </tr>
+       <tr>
+           <td>Nguyễn Văn Can</td>
+           <td>60</td>
+           <td>Hà Nội</td>
+        </tr>
+       <tr>
+           <td>Nguyễn Văn Can</td>
+           <td>60</td>
+           <td>Hà Nội</td>
+     </tr>
+   </table>
+   <form action="" name="login" >
+       <fieldset >
+           <legend >Đăng nhập</legend>
+           <label>Tên đăng nhập</label><br>
+           <input type="text" name="username" value="name"> <br>
+           <label>Mật khẩu</label><br>
+           <input type="password" name="password" > <br>
+           <input type="submit" name="sbt"><br>
+           <select  >
+               <option value="nam">Nam</option>
+               <option value="nữ">Nữ</option>
+           </select>
+       </fieldset>
+   </form>
 
-   <ul>
-       <li><h1>Bảng xếp hạng</h1>
-           <ol>
-               <li>Việt Nam</li>
-               <li>Lào</li>
-               <li>Thái</li>
-           </ol></li>
-
-       <li>Thành tích</li>
-       <ol>
-           <li>Việt Nam</li>
-           <li>Lào</li>
-           <li>Thái</li>
-       </ol>
-       <li>Điểm
-           <ol>
-               <li>Việt Nam</li>
-               <li>Lào</li>
-               <li>Thái</li>
-           </ol>
-       </li>
-
-   </ul>
 </body>
 </html>

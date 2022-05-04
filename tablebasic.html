@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+.main {
+    width: 500px;
+    margin: 0 auto;
+}
+.table_info{
+    border: 1px solid grey;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 2px #aaaaaa;
+}
+tr,td {
+    padding: 10px;
+}
+th {
+    background-color: coral;
+    color: white;
+}
+body {
+    background-color: #bdabab;
+}
+</style>
+<body>
+  <div class="main">
+      <table class="table_info">
+          <tr>
+              <th colspan="5">SỞ THÍCH CỦA BẠN</th>
+          </tr>
+          <tr>
+              <td>Họ và tên</td>
+              <td><input type="text" size="30"></td>
+
+          </tr>
+          <tr>
+              <td>Email</td>
+              <td><input type="text" size="25"></td>
+          </tr>
+          <tr>
+              <td>Sở thích</td>
+              <td>
+                  <table>
+                      <tr>
+                          <td><label class="like" ><input type="checkbox" name="interests">Thể thao</label> </td>
+                          <td><label class="like"><input type="checkbox" name="interests">Âm nhạc</label> </td>
+                          <td><label class="like"><input type="checkbox" name="interests">Du lịch</label> </td>
+                      </tr>
+                      <tr>
+                          <td><label class="like"><input type="checkbox" name="interests">Xem phim</label> </td>
+                          <td><label class="like"><input type="checkbox" name="interests">Chơi game</label> </td>
+                          <td><label class="like"><input type="checkbox" name="interests">Điện ảnh</label> </td>
+                      </tr>
+                      <tr>
+                          <td> <label class="like"><input type="checkbox" name="interests">Âm nhạc</label> </td>
+                      </tr>
+                  </table>
+
+
+
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2" style="text-align: center">
+                  <input type="submit" value="Gửi thông tin" name="Submit Form">
+                    <input type="reset" value="Nhập lại">
+              </td>
+
+
+          </tr>
+
+      </table>
+  </div>
+</body>
+</html>
