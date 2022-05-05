@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body,html {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: initial;
+    }
+    /*.day th{*/
+    /*    border:1px solid black;*/
+
+    /*}*/
+    .title th{
+        border:1px solid white;
+
+    }
+    .day th {
+        border: 1px solid black;
+    }
+    h1 {
+        color: red;
+        text-align: center;
+    }
+    .red {
+        background-color: red;
+        color: white;
+    }
+    .organ {
+      background-color: orange;
+  }
+    .blue {
+      background-color: blue;
+  }
+  th {
+      width: 90px;
+      height: 40px;
+  }
+  .title tr:nth-child(2) {
+      color: white;
+  }
+  th:nth-child(1) {
+      color: red;
+  }
+  th:nth-child(7) {
+      color: blue;
+  }
+  sub {
+      color: #333333;
+  }
+    table{
+       border-collapse: collapse;
+    }
+</style>
+<body>
+
+<table class="title "  >
+    <tr>
+        <th colspan="7">Tháng 10</th>
+    </tr>
+    <tr>
+        <th class="red" style="color: white">C.Nhật</th>
+        <th class="organ">T.Hai</th>
+        <th class="organ">T.Ba</th>
+        <th class="organ">T.Tư</th>
+        <th class="organ">T.Năm</th>
+        <th class="organ">T.Sáu</th>
+        <th class="blue" style="color:white">T.Bảy</th>
+    </tr>
+    <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Web</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+    </tr>
+</table>
+<table class="day">
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>1<sub>19</sub> </th>
+        <th>2<sub>20</sub> </th>
+        <th>3<sub>21</sub> </th>
+    </tr>
+    <tr>
+        <th>3<sub>19</sub></th>
+        <th>4<sub>19</sub></th>
+        <th>5<sub>19</sub></th>
+        <th>6<sub>19</sub></th>
+        <th>7<sub>19</sub></th>
+        <th>8<sub>20</sub></th>
+        <th>9<sub>21</sub></th>
+    </tr>
+    <tr>
+        <th>10<sub>19</sub></th>
+        <th>11<sub>19</sub></th>
+        <th>12<sub>19</sub></th>
+        <th>13<sub>19</sub></th>
+        <th>14<sub>19</sub></th>
+        <th>15<sub>20</sub></th>
+        <th>16<sub>21</sub></th>
+    </tr>
+    <tr>
+        <th>17<sub>19</sub></th>
+        <th>18<sub>19</sub></th>
+        <th>19<sub>19</sub></th>
+        <th>20<sub>19</sub></th>
+        <th>21<sub>19</sub></th>
+        <th>22<sub>20</sub></th>
+        <th>23<sub>21</sub></th>
+    </tr>
+</table>
+</body>
+</html>
