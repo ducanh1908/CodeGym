@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo">click mee</p>
+<button onclick="alert('hello các bạn')" >Click me!!</button>
+
+<script>
+    let ClickMe = document.getElementById("demo");
+    ClickMe.addEventListener("click",mouseout);
+    ClickMe.addEventListener("click",mouseover);
+    function mouseover() {
+        document.getElementById("demo").style.color="red";
+    }
+    function mouseout() {
+        document.getElementById("demo").style.color="blue";
+    }
+</script>
+</body>
+</html>
